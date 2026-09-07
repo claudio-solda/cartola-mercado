@@ -1,0 +1,18 @@
+{
+  "atualizado_em": "2026-09-07T01:00:00+00:00",
+  "total_atletas": 12,
+  "atletas": [
+    {"id":1,"nome":"Neymar","clube":"Santos","clube_abreviacao":"SAN","posicao":"Meia","preco":18.4,"media_total":9.2,"media_basica":5.1,"min_para_valorizar":8.28,"jogos":14,"mando":"Casa","adversario":"Bahia","mando_favoravel":"N/A"},
+    {"id":2,"nome":"Pedro","clube":"Flamengo","clube_abreviacao":"FLA","posicao":"Atacante","preco":15.1,"media_total":8.4,"media_basica":4.3,"min_para_valorizar":6.80,"jogos":15,"mando":"Fora","adversario":"Fortaleza","mando_favoravel":"N/A"},
+    {"id":3,"nome":"Gómez","clube":"Vasco","clube_abreviacao":"VAS","posicao":"Zagueiro","preco":9.8,"media_total":5.6,"media_basica":5.6,"min_para_valorizar":4.41,"jogos":13,"mando":"Casa","adversario":"Sport","mando_favoravel":"Favorável"},
+    {"id":4,"nome":"Carlos Miguel","clube":"Palmeiras","clube_abreviacao":"PAL","posicao":"Goleiro","preco":11.2,"media_total":6.1,"media_basica":6.1,"min_para_valorizar":5.04,"jogos":15,"mando":"Casa","adversario":"Cuiabá","mando_favoravel":"Favorável"},
+    {"id":5,"nome":"João Victor","clube":"Corinthians","clube_abreviacao":"COR","posicao":"Zagueiro","preco":8.6,"media_total":4.9,"media_basica":4.9,"min_para_valorizar":3.87,"jogos":14,"mando":"Fora","adversario":"Grêmio","mando_favoravel":"Neutro/Desfavorável"},
+    {"id":6,"nome":"Arias","clube":"Fluminense","clube_abreviacao":"FLU","posicao":"Meia","preco":12.3,"media_total":7.0,"media_basica":3.9,"min_para_valorizar":5.54,"jogos":15,"mando":"Casa","adversario":"Atlético-MG","mando_favoravel":"N/A"},
+    {"id":7,"nome":"Bidu","clube":"Corinthians","clube_abreviacao":"COR","posicao":"Lateral","preco":7.9,"media_total":4.2,"media_basica":4.2,"min_para_valorizar":3.56,"jogos":13,"mando":"Fora","adversario":"Grêmio","mando_favoravel":"Neutro/Desfavorável"},
+    {"id":8,"nome":"Juba","clube":"Bahia","clube_abreviacao":"BAH","posicao":"Meia","preco":10.5,"media_total":6.3,"media_basica":3.4,"min_para_valorizar":4.73,"jogos":15,"mando":"Fora","adversario":"Santos","mando_favoravel":"N/A"},
+    {"id":9,"nome":"Kaio Jorge","clube":"Cruzeiro","clube_abreviacao":"CRU","posicao":"Atacante","preco":13.7,"media_total":7.8,"media_basica":3.9,"min_para_valorizar":6.17,"jogos":14,"mando":"Casa","adversario":"Bragantino","mando_favoravel":"N/A"},
+    {"id":10,"nome":"Rafael Guanaes","clube":"Mirassol","clube_abreviacao":"MIR","posicao":"Técnico","preco":6.4,"media_total":4.0,"media_basica":4.0,"min_para_valorizar":2.88,"jogos":15,"mando":"Casa","adversario":"Vitória","mando_favoravel":"N/A"},
+    {"id":11,"nome":"Ignácio","clube":"Fluminense","clube_abreviacao":"FLU","posicao":"Zagueiro","preco":7.1,"media_total":3.8,"media_basica":3.8,"min_para_valorizar":3.20,"jogos":12,"mando":"Casa","adversario":"Atlético-MG","mando_favoravel":"Favorável"},
+    {"id":12,"nome":"Savarino","clube":"Fluminense","clube_abreviacao":"FLU","posicao":"Meia","preco":9.4,"media_total":5.9,"media_basica":3.1,"min_para_valorizar":4.23,"jogos":14,"mando":"Casa","adversario":"Atlético-MG","mando_favoravel":"N/A"}
+  ]
+}
