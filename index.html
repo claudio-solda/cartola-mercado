@@ -328,7 +328,9 @@ function montarManchete(){
   document.getElementById('manchete').style.display = 'block';
   document.getElementById('m-nome').textContent = destaque.nome;
   document.getElementById('m-sub').textContent =
-    `${destaque.clube_abreviacao || destaque.clube} · ${destaque.posicao} · ${destaque.mando} x ${destaque.adversario}`;
+    (destaque.adversario && destaque.adversario !== 'N/A')
+      ? `${destaque.clube_abreviacao || destaque.clube} · ${destaque.posicao} · ${destaque.mando} x ${destaque.adversario}`
+      : `${destaque.clube_abreviacao || destaque.clube} · ${destaque.posicao} · Confronto a definir`;
   document.getElementById('m-basica').textContent = destaque.media_basica.toFixed(1);
   document.getElementById('m-preco').textContent = destaque.preco.toFixed(2);
   document.getElementById('m-min').textContent = destaque.min_para_valorizar.toFixed(2);
@@ -370,12 +372,16 @@ function render(){
     if(a.mando_favoravel === 'Favorável') tagMando = `<span class="tag-favoravel">· mando favorável</span>`;
     else if(a.mando_favoravel === 'Neutro/Desfavorável') tagMando = `<span class="tag-desfavoravel">· mando neutro</span>`;
 
+    const confrontoTexto = (a.adversario && a.adversario !== 'N/A')
+      ? `${a.mando} x ${escapeHtml(a.adversario)}`
+      : 'Confronto a definir';
+
     return `
       <div class="linha">
         <div class="${badgeClass}">${abrev}</div>
         <div class="info">
           <div class="nome">${escapeHtml(a.nome)}</div>
-          <div class="meta">${escapeHtml(a.clube_abreviacao || a.clube)} · ${a.mando} x ${escapeHtml(a.adversario)} ${tagMando}</div>
+          <div class="meta">${escapeHtml(a.clube_abreviacao || a.clube)} · ${confrontoTexto} ${tagMando}</div>
         </div>
         <div class="valores">
           <div class="preco">C$ ${a.preco.toFixed(2)}</div>
