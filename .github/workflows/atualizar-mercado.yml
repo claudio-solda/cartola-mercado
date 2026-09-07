@@ -1,0 +1,40 @@
+name: Atualizar mercado do Cartola
+
+on:
+  schedule:
+    # A cada 3 horas, das 8h às 23h (horário UTC ~ Brasília -3h)
+    - cron: "0 11,14,17,20,23,2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependências
+        run: pip install requests pandas
+
+      - name: Rodar script de atualização
+        run: python scripts/atualizar_mercado.py
+
+      - name: Commitar mercado.json se mudou
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/mercado.json; then
+            echo "Sem mudanças no mercado."
+          else
+            git add data/mercado.json
+            git commit -m "Atualiza mercado do Cartola ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
