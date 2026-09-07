@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Mercado — Boletim do Cartola</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Mono:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0d1321;
+    --surface:#161f36;
+    --surface-2:#1d2a4a;
+    --rule:#2c3958;
+    --gold:#d4a24c;
+    --rust:#c1512f;
+    --cream:#f2ede1;
+    --muted:#8e97b0;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--ink);
+    color:var(--cream);
+    font-family:'Inter', sans-serif;
+    display:flex;
+    justify-content:center;
+  }
+  .app{
+    width:100%;
+    max-width:480px;
+    min-height:100vh;
+    padding-bottom:60px;
+  }
+
+  /* Masthead */
+  .masthead{
+    padding:28px 20px 18px;
+    border-bottom:1px solid var(--rule);
+  }
+  .masthead .dateline{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.7rem;
+    color:var(--muted);
+    letter-spacing:0.03em;
+    display:flex;
+    justify-content:space-between;
+  }
+  .masthead h1{
+    font-family:'Fraunces', serif;
+    font-weight:700;
+    font-size:2.2rem;
+    margin:10px 0 4px;
+    line-height:1.05;
+    color:var(--cream);
+  }
+  .masthead p{
+    margin:0;
+    color:var(--muted);
+    font-size:0.85rem;
+  }
+
+  /* Manchete: destaque da rodada */
+  .manchete{
+    margin:20px 20px 0;
+    padding:18px 18px 20px;
+    border:1px solid var(--rule);
+    border-left:3px solid var(--gold);
+    background:var(--surface);
+  }
+  .manchete .rotulo{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.68rem;
+    color:var(--gold);
+    margin-bottom:10px;
+  }
+  .manchete .nome{
+    font-family:'Fraunces', serif;
+    font-size:1.5rem;
+    font-weight:700;
+    margin:0 0 2px;
+  }
+  .manchete .sub{
+    font-size:0.82rem;
+    color:var(--muted);
+    margin-bottom:12px;
+  }
+  .manchete .stats{
+    display:flex;
+    gap:22px;
+  }
+  .manchete .stat b{
+    display:block;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:1.15rem;
+    color:var(--cream);
+  }
+  .manchete .stat span{
+    font-size:0.68rem;
+    color:var(--muted);
+  }
+
+  /* Busca e filtros */
+  .controles{
+    margin:22px 20px 0;
+  }
+  .busca{
+    width:100%;
+    background:var(--surface);
+    border:1px solid var(--rule);
+    color:var(--cream);
+    padding:11px 14px;
+    font-family:inherit;
+    font-size:0.92rem;
+  }
+  .busca::placeholder{color:var(--muted);}
+
+  .chips{
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    padding:12px 0 4px;
+    scrollbar-width:none;
+  }
+  .chips::-webkit-scrollbar{display:none;}
+  .chip{
+    flex:0 0 auto;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    padding:7px 12px;
+    border:1px solid var(--rule);
+    color:var(--muted);
+    background:transparent;
+    cursor:pointer;
+    white-space:nowrap;
+  }
+  .chip.ativo{
+    border-color:var(--gold);
+    color:var(--gold);
+  }
+
+  .ordenar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 0 2px;
+    font-size:0.75rem;
+    color:var(--muted);
+  }
+  .ordenar select{
+    background:transparent;
+    color:var(--cream);
+    border:none;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.75rem;
+    text-align:right;
+  }
+
+  /* Lista tipo escalação */
+  .lista{
+    margin:8px 20px 0;
+    border-top:1px solid var(--rule);
+  }
+  .linha{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 2px;
+    border-bottom:1px solid var(--rule);
+  }
+  .badge{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.68rem;
+    font-weight:600;
+    color:var(--ink);
+    background:var(--muted);
+    min-width:30px;
+    height:30px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+  }
+  .badge.gol{background:var(--gold);}
+  .info{flex:1; min-width:0;}
+  .info .nome{
+    font-family:'Fraunces', serif;
+    font-size:1.02rem;
+    font-weight:700;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .info .meta{
+    font-size:0.72rem;
+    color:var(--muted);
+    margin-top:2px;
+  }
+  .info .meta .tag-favoravel{color:var(--gold);}
+  .info .meta .tag-desfavoravel{color:var(--rust);}
+
+  .valores{
+    text-align:right;
+    flex-shrink:0;
+  }
+  .valores .preco{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.92rem;
+    color:var(--cream);
+  }
+  .valores .basica{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:0.72rem;
+    color:var(--muted);
+    margin-top:2px;
+  }
+
+  .vazio{
+    text-align:center;
+    padding:50px 20px;
+    color:var(--muted);
+    font-size:0.9rem;
+  }
+
+  .rodape{
+    text-align:center;
+    font-size:0.7rem;
+    color:var(--muted);
+    padding:26px 20px 0;
+    font-family:'IBM Plex Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <header class="masthead">
+    <div class="dateline">
+      <span>BOLETIM DE MERCADO</span>
+      <span id="atualizado">—</span>
+    </div>
+    <h1>Cartola</h1>
+    <p>Preço, média básica e mando de campo — atualizado automaticamente</p>
+  </header>
+
+  <div class="manchete" id="manchete" style="display:none;">
+    <div class="rotulo">DESTAQUE — MAIOR MÉDIA BÁSICA</div>
+    <div class="nome" id="m-nome">—</div>
+    <div class="sub" id="m-sub">—</div>
+    <div class="stats">
+      <div class="stat"><b id="m-basica">—</b><span>MÉDIA BÁSICA</span></div>
+      <div class="stat"><b id="m-preco">—</b><span>PREÇO C$</span></div>
+      <div class="stat"><b id="m-min">—</b><span>MÍN. VALORIZAR</span></div>
+    </div>
+  </div>
+
+  <div class="controles">
+    <input type="text" class="busca" id="busca" placeholder="Buscar jogador ou clube...">
+    <div class="chips" id="chips"></div>
+    <div class="ordenar">
+      <span id="contagem">—</span>
+      <select id="ordenacao">
+        <option value="media_basica">Ordenar: Média Básica</option>
+        <option value="media_total">Ordenar: Média Total</option>
+        <option value="preco">Ordenar: Preço</option>
+        <option value="preco_asc">Ordenar: Preço (menor)</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="lista" id="lista"></div>
+
+  <div class="rodape">Dados: API pública do Cartola FC · Atualização automática</div>
+</div>
+
+<script>
+const POSICOES = ["Goleiro","Lateral","Zagueiro","Meia","Atacante","Técnico"];
+const ABREV = {"Goleiro":"GOL","Lateral":"LAT","Zagueiro":"ZAG","Meia":"MEI","Atacante":"ATA","Técnico":"TEC"};
+
+let dados = [];
+let filtroPosicao = "todas";
+let termoBusca = "";
+let ordenacao = "media_basica";
+
+async function carregar(){
+  try{
+    const resp = await fetch('data/mercado.json', {cache:'no-store'});
+    if(!resp.ok) throw new Error('resposta ' + resp.status);
+    const json = await resp.json();
+    dados = json.atletas || [];
+    document.getElementById('atualizado').textContent = formatarData(json.atualizado_em);
+    montarChips();
+    montarManchete();
+    render();
+  }catch(e){
+    document.getElementById('lista').innerHTML =
+      '<div class="vazio">Não foi possível carregar o mercado agora.<br>Tente novamente mais tarde.</div>';
+  }
+}
+
+function formatarData(iso){
+  if(!iso) return '—';
+  const d = new Date(iso);
+  return d.toLocaleString('pt-BR', {day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit'});
+}
+
+function montarChips(){
+  const cont = document.getElementById('chips');
+  const posicoesPresentes = ["todas", ...POSICOES];
+  cont.innerHTML = posicoesPresentes.map(p => `
+    <button class="chip ${p===filtroPosicao?'ativo':''}" data-pos="${p}">
+      ${p==='todas' ? 'Todas' : p}
+    </button>
+  `).join('');
+  cont.querySelectorAll('.chip').forEach(btn=>{
+    btn.addEventListener('click', ()=>{
+      filtroPosicao = btn.dataset.pos;
+      montarChips();
+      render();
+    });
+  });
+}
+
+function montarManchete(){
+  if(dados.length === 0) return;
+  const destaque = [...dados].sort((a,b)=> b.media_basica - a.media_basica)[0];
+  document.getElementById('manchete').style.display = 'block';
+  document.getElementById('m-nome').textContent = destaque.nome;
+  document.getElementById('m-sub').textContent =
+    `${destaque.clube_abreviacao || destaque.clube} · ${destaque.posicao} · ${destaque.mando} x ${destaque.adversario}`;
+  document.getElementById('m-basica').textContent = destaque.media_basica.toFixed(1);
+  document.getElementById('m-preco').textContent = destaque.preco.toFixed(2);
+  document.getElementById('m-min').textContent = destaque.min_para_valorizar.toFixed(2);
+}
+
+function aplicarFiltros(){
+  let lista = dados;
+  if(filtroPosicao !== 'todas'){
+    lista = lista.filter(a => a.posicao === filtroPosicao);
+  }
+  if(termoBusca.trim()){
+    const termo = termoBusca.trim().toLowerCase();
+    lista = lista.filter(a =>
+      a.nome.toLowerCase().includes(termo) || (a.clube||'').toLowerCase().includes(termo)
+    );
+  }
+  lista = [...lista];
+  if(ordenacao === 'media_basica') lista.sort((a,b)=> b.media_basica - a.media_basica);
+  else if(ordenacao === 'media_total') lista.sort((a,b)=> b.media_total - a.media_total);
+  else if(ordenacao === 'preco') lista.sort((a,b)=> b.preco - a.preco);
+  else if(ordenacao === 'preco_asc') lista.sort((a,b)=> a.preco - b.preco);
+  return lista;
+}
+
+function render(){
+  const lista = aplicarFiltros();
+  document.getElementById('contagem').textContent = `${lista.length} jogador${lista.length===1?'':'es'}`;
+
+  const cont = document.getElementById('lista');
+  if(lista.length === 0){
+    cont.innerHTML = '<div class="vazio">Nenhum jogador encontrado com esse filtro.</div>';
+    return;
+  }
+
+  cont.innerHTML = lista.map(a => {
+    const abrev = ABREV[a.posicao] || '—';
+    const badgeClass = a.posicao === 'Goleiro' ? 'badge gol' : 'badge';
+    let tagMando = '';
+    if(a.mando_favoravel === 'Favorável') tagMando = `<span class="tag-favoravel">· mando favorável</span>`;
+    else if(a.mando_favoravel === 'Neutro/Desfavorável') tagMando = `<span class="tag-desfavoravel">· mando neutro</span>`;
+
+    return `
+      <div class="linha">
+        <div class="${badgeClass}">${abrev}</div>
+        <div class="info">
+          <div class="nome">${escapeHtml(a.nome)}</div>
+          <div class="meta">${escapeHtml(a.clube_abreviacao || a.clube)} · ${a.mando} x ${escapeHtml(a.adversario)} ${tagMando}</div>
+        </div>
+        <div class="valores">
+          <div class="preco">C$ ${a.preco.toFixed(2)}</div>
+          <div class="basica">MB ${a.media_basica.toFixed(1)}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function escapeHtml(str){
+  return String(str).replace(/[&<>"']/g, m => ({
+    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+  }[m]));
+}
+
+document.getElementById('busca').addEventListener('input', (e)=>{
+  termoBusca = e.target.value;
+  render();
+});
+document.getElementById('ordenacao').addEventListener('change', (e)=>{
+  ordenacao = e.target.value;
+  render();
+});
+
+carregar();
+</script>
+
+</body>
+</html>
