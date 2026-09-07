@@ -127,6 +127,8 @@ def main():
 
     dados_partidas = buscar_json(URL_PARTIDAS)
     partidas = (dados_partidas or {}).get("partidas", [])
+    if not partidas:
+        print("[aviso] Nenhuma partida retornada pela API — mando/adversário ficarão em branco nesta atualização.", file=sys.stderr)
 
     clubes = dados_mercado.get("clubes", {})
     mapa_confrontos = montar_mapa_confrontos(partidas, clubes)
