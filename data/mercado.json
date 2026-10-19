@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-18T22:18:10.022803+00:00",
+  "atualizado_em": "2026-10-19T00:57:31.486178+00:00",
   "total_atletas": 214,
   "atletas": [
     {
@@ -14,6 +14,21 @@
       "min_para_valorizar": 2.91,
       "jogos": 11,
       "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 106907,
+      "nome": "Rafael Lacerda",
+      "clube": "CHA",
+      "clube_abreviacao": "CHA",
+      "posicao": "Técnico",
+      "preco": 8.29,
+      "media_total": 4.79,
+      "media_basica": 0.0,
+      "min_para_valorizar": 3.73,
+      "jogos": 11,
+      "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
     },
@@ -46,21 +61,6 @@
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "Favorável"
-    },
-    {
-      "id": 106907,
-      "nome": "Rafael Lacerda",
-      "clube": "CHA",
-      "clube_abreviacao": "CHA",
-      "posicao": "Técnico",
-      "preco": 8.29,
-      "media_total": 4.79,
-      "media_basica": 0.0,
-      "min_para_valorizar": 3.73,
-      "jogos": 11,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
     },
     {
       "id": 101995,
@@ -153,6 +153,21 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
+      "id": 106950,
+      "nome": "Fernando",
+      "clube": "CHA",
+      "clube_abreviacao": "CHA",
+      "posicao": "Lateral",
+      "preco": 3.61,
+      "media_total": 1.64,
+      "media_basica": 0.0,
+      "min_para_valorizar": 1.62,
+      "jogos": 9,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
       "id": 122670,
       "nome": "Diego Caito",
       "clube": "GRE",
@@ -183,19 +198,19 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 106950,
-      "nome": "Fernando",
-      "clube": "CHA",
-      "clube_abreviacao": "CHA",
-      "posicao": "Lateral",
-      "preco": 3.61,
-      "media_total": 1.64,
-      "media_basica": 0.0,
-      "min_para_valorizar": 1.62,
-      "jogos": 9,
+      "id": 114323,
+      "nome": "Colidio",
+      "clube": "VAS",
+      "clube_abreviacao": "VAS",
+      "posicao": "Atacante",
+      "preco": 10.12,
+      "media_total": 7.66,
+      "media_basica": -3.62,
+      "min_para_valorizar": 4.55,
+      "jogos": 8,
       "mando": "N/A",
       "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
+      "mando_favoravel": "N/A"
     },
     {
       "id": 141160,
@@ -211,21 +226,6 @@
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
-    },
-    {
-      "id": 107093,
-      "nome": "Luciano Juba",
-      "clube": "BAH",
-      "clube_abreviacao": "BAH",
-      "posicao": "Lateral",
-      "preco": 12.32,
-      "media_total": 7.09,
-      "media_basica": -3.27,
-      "min_para_valorizar": 5.54,
-      "jogos": 26,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "Favorável"
     },
     {
       "id": 100596,
@@ -252,21 +252,6 @@
       "media_total": 3.47,
       "media_basica": 0.0,
       "min_para_valorizar": 3.12,
-      "jogos": 8,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
-      "id": 114323,
-      "nome": "Colidio",
-      "clube": "VAS",
-      "clube_abreviacao": "VAS",
-      "posicao": "Atacante",
-      "preco": 10.12,
-      "media_total": 7.66,
-      "media_basica": -3.62,
-      "min_para_valorizar": 4.55,
       "jogos": 8,
       "mando": "N/A",
       "adversario": "N/A",
@@ -303,21 +288,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 87747,
-      "nome": "Yago Felipe",
-      "clube": "CHA",
-      "clube_abreviacao": "CHA",
-      "posicao": "Meia",
-      "preco": 8.59,
-      "media_total": 5.36,
-      "media_basica": -0.62,
-      "min_para_valorizar": 3.87,
-      "jogos": 8,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 86864,
       "nome": "Marlon",
       "clube": "REM",
@@ -333,16 +303,16 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 138941,
-      "nome": "Bruno Duarte",
-      "clube": "VAS",
-      "clube_abreviacao": "VAS",
-      "posicao": "Atacante",
-      "preco": 9.35,
-      "media_total": 7.68,
-      "media_basica": -4.5,
-      "min_para_valorizar": 4.21,
-      "jogos": 4,
+      "id": 87747,
+      "nome": "Yago Felipe",
+      "clube": "CHA",
+      "clube_abreviacao": "CHA",
+      "posicao": "Meia",
+      "preco": 8.59,
+      "media_total": 5.36,
+      "media_basica": -0.62,
+      "min_para_valorizar": 3.87,
+      "jogos": 8,
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -361,6 +331,36 @@
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
+      "id": 107093,
+      "nome": "Luciano Juba",
+      "clube": "BAH",
+      "clube_abreviacao": "BAH",
+      "posicao": "Lateral",
+      "preco": 12.32,
+      "media_total": 7.09,
+      "media_basica": -3.27,
+      "min_para_valorizar": 5.54,
+      "jogos": 26,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "Favorável"
+    },
+    {
+      "id": 138941,
+      "nome": "Bruno Duarte",
+      "clube": "VAS",
+      "clube_abreviacao": "VAS",
+      "posicao": "Atacante",
+      "preco": 9.35,
+      "media_total": 7.68,
+      "media_basica": -4.5,
+      "min_para_valorizar": 4.21,
+      "jogos": 4,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
     },
     {
       "id": 124552,
@@ -483,21 +483,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 63007,
-      "nome": "Neymar",
-      "clube": "SAN",
-      "clube_abreviacao": "SAN",
-      "posicao": "Meia",
-      "preco": 20.23,
-      "media_total": 10.24,
-      "media_basica": -5.69,
-      "min_para_valorizar": 9.1,
-      "jogos": 13,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 68928,
       "nome": "Rafael",
       "clube": "SAO",
@@ -513,19 +498,19 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 100898,
-      "nome": "Vitinho",
-      "clube": "BOT",
-      "clube_abreviacao": "BOT",
-      "posicao": "Lateral",
-      "preco": 8.87,
-      "media_total": 4.63,
-      "media_basica": -0.75,
-      "min_para_valorizar": 3.99,
-      "jogos": 24,
-      "mando": "Casa",
+      "id": 63007,
+      "nome": "Neymar",
+      "clube": "SAN",
+      "clube_abreviacao": "SAN",
+      "posicao": "Meia",
+      "preco": 20.23,
+      "media_total": 10.24,
+      "media_basica": -5.69,
+      "min_para_valorizar": 9.1,
+      "jogos": 13,
+      "mando": "N/A",
       "adversario": "N/A",
-      "mando_favoravel": "Favorável"
+      "mando_favoravel": "N/A"
     },
     {
       "id": 87008,
@@ -543,19 +528,19 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
-      "id": 99274,
-      "nome": "Alexander Barboza",
-      "clube": "PAL",
-      "clube_abreviacao": "PAL",
-      "posicao": "Zagueiro",
-      "preco": 11.4,
-      "media_total": 6.11,
-      "media_basica": -1.63,
-      "min_para_valorizar": 5.13,
-      "jogos": 19,
-      "mando": "N/A",
+      "id": 100898,
+      "nome": "Vitinho",
+      "clube": "BOT",
+      "clube_abreviacao": "BOT",
+      "posicao": "Lateral",
+      "preco": 8.87,
+      "media_total": 4.63,
+      "media_basica": -0.75,
+      "min_para_valorizar": 3.99,
+      "jogos": 24,
+      "mando": "Casa",
       "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
+      "mando_favoravel": "Favorável"
     },
     {
       "id": 68899,
@@ -573,6 +558,21 @@
       "mando_favoravel": "N/A"
     },
     {
+      "id": 99274,
+      "nome": "Alexander Barboza",
+      "clube": "PAL",
+      "clube_abreviacao": "PAL",
+      "posicao": "Zagueiro",
+      "preco": 11.4,
+      "media_total": 6.11,
+      "media_basica": -1.63,
+      "min_para_valorizar": 5.13,
+      "jogos": 19,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
       "id": 101727,
       "nome": "Matheuzinho",
       "clube": "COR",
@@ -586,6 +586,21 @@
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "Favorável"
+    },
+    {
+      "id": 117632,
+      "nome": "Garro",
+      "clube": "COR",
+      "clube_abreviacao": "COR",
+      "posicao": "Meia",
+      "preco": 10.22,
+      "media_total": 4.83,
+      "media_basica": -1.77,
+      "min_para_valorizar": 4.6,
+      "jogos": 26,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
     },
     {
       "id": 37656,
@@ -633,6 +648,21 @@
       "mando_favoravel": "Favorável"
     },
     {
+      "id": 109401,
+      "nome": "Erick Pulga",
+      "clube": "BAH",
+      "clube_abreviacao": "BAH",
+      "posicao": "Atacante",
+      "preco": 7.87,
+      "media_total": 4.59,
+      "media_basica": -1.5,
+      "min_para_valorizar": 3.54,
+      "jogos": 28,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
       "id": 80313,
       "nome": "Gilberto",
       "clube": "CAP",
@@ -648,19 +678,19 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 109401,
-      "nome": "Erick Pulga",
+      "id": 91772,
+      "nome": "David Duarte",
       "clube": "BAH",
       "clube_abreviacao": "BAH",
-      "posicao": "Atacante",
-      "preco": 7.87,
-      "media_total": 4.59,
-      "media_basica": -1.5,
-      "min_para_valorizar": 3.54,
-      "jogos": 28,
+      "posicao": "Zagueiro",
+      "preco": 6.72,
+      "media_total": 3.89,
+      "media_basica": -1.09,
+      "min_para_valorizar": 3.02,
+      "jogos": 22,
       "mando": "Casa",
       "adversario": "N/A",
-      "mando_favoravel": "N/A"
+      "mando_favoravel": "Favorável"
     },
     {
       "id": 113397,
@@ -688,21 +718,6 @@
       "media_basica": -1.18,
       "min_para_valorizar": 2.87,
       "jogos": 11,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "Favorável"
-    },
-    {
-      "id": 91772,
-      "nome": "David Duarte",
-      "clube": "BAH",
-      "clube_abreviacao": "BAH",
-      "posicao": "Zagueiro",
-      "preco": 6.72,
-      "media_total": 3.89,
-      "media_basica": -1.09,
-      "min_para_valorizar": 3.02,
-      "jogos": 22,
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "Favorável"
@@ -753,19 +768,19 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 117910,
-      "nome": "Breno Bidon",
-      "clube": "COR",
-      "clube_abreviacao": "COR",
-      "posicao": "Meia",
-      "preco": 8.48,
-      "media_total": 3.53,
-      "media_basica": -0.78,
-      "min_para_valorizar": 3.82,
-      "jogos": 27,
+      "id": 72493,
+      "nome": "Alex Telles",
+      "clube": "BOT",
+      "clube_abreviacao": "BOT",
+      "posicao": "Lateral",
+      "preco": 9.42,
+      "media_total": 4.62,
+      "media_basica": -2.26,
+      "min_para_valorizar": 4.24,
+      "jogos": 23,
       "mando": "Casa",
       "adversario": "N/A",
-      "mando_favoravel": "N/A"
+      "mando_favoravel": "Favorável"
     },
     {
       "id": 97468,
@@ -798,21 +813,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 72493,
-      "nome": "Alex Telles",
-      "clube": "BOT",
-      "clube_abreviacao": "BOT",
-      "posicao": "Lateral",
-      "preco": 9.42,
-      "media_total": 4.62,
-      "media_basica": -2.26,
-      "min_para_valorizar": 4.24,
-      "jogos": 23,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "Favorável"
-    },
-    {
       "id": 69140,
       "nome": "Allan",
       "clube": "BOT",
@@ -828,21 +828,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 107231,
-      "nome": "Danilo",
-      "clube": "BOT",
-      "clube_abreviacao": "BOT",
-      "posicao": "Meia",
-      "preco": 14.18,
-      "media_total": 6.99,
-      "media_basica": -3.52,
-      "min_para_valorizar": 6.38,
-      "jogos": 21,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 111831,
       "nome": "Matheus Martins",
       "clube": "BOT",
@@ -853,6 +838,21 @@
       "media_basica": -1.6,
       "min_para_valorizar": 3.17,
       "jogos": 20,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 107231,
+      "nome": "Danilo",
+      "clube": "BOT",
+      "clube_abreviacao": "BOT",
+      "posicao": "Meia",
+      "preco": 14.18,
+      "media_total": 6.99,
+      "media_basica": -3.52,
+      "min_para_valorizar": 6.38,
+      "jogos": 21,
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -903,21 +903,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 70360,
-      "nome": "Eduardo Sasha",
-      "clube": "RBB",
-      "clube_abreviacao": "RBB",
-      "posicao": "Atacante",
-      "preco": 4.5,
-      "media_total": 1.57,
-      "media_basica": -0.4,
-      "min_para_valorizar": 2.02,
-      "jogos": 20,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 39850,
       "nome": "Vagner Mancini",
       "clube": "RBB",
@@ -928,6 +913,21 @@
       "media_basica": 0.0,
       "min_para_valorizar": 4.05,
       "jogos": 28,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 70360,
+      "nome": "Eduardo Sasha",
+      "clube": "RBB",
+      "clube_abreviacao": "RBB",
+      "posicao": "Atacante",
+      "preco": 4.5,
+      "media_total": 1.57,
+      "media_basica": -0.4,
+      "min_para_valorizar": 2.02,
+      "jogos": 20,
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -993,21 +993,6 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
-      "id": 110750,
-      "nome": "Gustavo Marques",
-      "clube": "RBB",
-      "clube_abreviacao": "RBB",
-      "posicao": "Zagueiro",
-      "preco": 6.72,
-      "media_total": 4.23,
-      "media_basica": -0.32,
-      "min_para_valorizar": 3.02,
-      "jogos": 25,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
-    },
-    {
       "id": 112886,
       "nome": "Lucas Barbosa",
       "clube": "RBB",
@@ -1034,6 +1019,21 @@
       "min_para_valorizar": 1.23,
       "jogos": 12,
       "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 117910,
+      "nome": "Breno Bidon",
+      "clube": "COR",
+      "clube_abreviacao": "COR",
+      "posicao": "Meia",
+      "preco": 8.48,
+      "media_total": 3.53,
+      "media_basica": -0.78,
+      "min_para_valorizar": 3.82,
+      "jogos": 27,
+      "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
     },
@@ -1203,19 +1203,19 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 117632,
-      "nome": "Garro",
-      "clube": "COR",
-      "clube_abreviacao": "COR",
-      "posicao": "Meia",
-      "preco": 10.22,
-      "media_total": 4.83,
-      "media_basica": -1.77,
-      "min_para_valorizar": 4.6,
-      "jogos": 26,
-      "mando": "Casa",
+      "id": 110750,
+      "nome": "Gustavo Marques",
+      "clube": "RBB",
+      "clube_abreviacao": "RBB",
+      "posicao": "Zagueiro",
+      "preco": 6.72,
+      "media_total": 4.23,
+      "media_basica": -0.32,
+      "min_para_valorizar": 3.02,
+      "jogos": 25,
+      "mando": "N/A",
       "adversario": "N/A",
-      "mando_favoravel": "N/A"
+      "mando_favoravel": "Neutro/Desfavorável"
     },
     {
       "id": 105647,
@@ -1248,19 +1248,19 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 84558,
-      "nome": "Lucas Romero",
-      "clube": "CRU",
-      "clube_abreviacao": "CRU",
-      "posicao": "Meia",
-      "preco": 8.04,
-      "media_total": 4.67,
-      "media_basica": -1.55,
-      "min_para_valorizar": 3.62,
-      "jogos": 20,
+      "id": 105175,
+      "nome": "Khellven",
+      "clube": "PAL",
+      "clube_abreviacao": "PAL",
+      "posicao": "Lateral",
+      "preco": 6.35,
+      "media_total": 3.58,
+      "media_basica": -0.24,
+      "min_para_valorizar": 2.86,
+      "jogos": 21,
       "mando": "N/A",
       "adversario": "N/A",
-      "mando_favoravel": "N/A"
+      "mando_favoravel": "Neutro/Desfavorável"
     },
     {
       "id": 89275,
@@ -1272,6 +1272,21 @@
       "media_total": 4.01,
       "media_basica": 0.0,
       "min_para_valorizar": 3.47,
+      "jogos": 15,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
+      "id": 105047,
+      "nome": "João Marcelo",
+      "clube": "CRU",
+      "clube_abreviacao": "CRU",
+      "posicao": "Zagueiro",
+      "preco": 3.99,
+      "media_total": 2.35,
+      "media_basica": -0.53,
+      "min_para_valorizar": 1.8,
       "jogos": 15,
       "mando": "N/A",
       "adversario": "N/A",
@@ -1291,21 +1306,6 @@
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
-    },
-    {
-      "id": 105047,
-      "nome": "João Marcelo",
-      "clube": "CRU",
-      "clube_abreviacao": "CRU",
-      "posicao": "Zagueiro",
-      "preco": 3.99,
-      "media_total": 2.35,
-      "media_basica": -0.53,
-      "min_para_valorizar": 1.8,
-      "jogos": 15,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
     },
     {
       "id": 132264,
@@ -1398,6 +1398,21 @@
       "mando_favoravel": "N/A"
     },
     {
+      "id": 84816,
+      "nome": "Varela",
+      "clube": "FLA",
+      "clube_abreviacao": "FLA",
+      "posicao": "Lateral",
+      "preco": 8.43,
+      "media_total": 4.48,
+      "media_basica": -0.86,
+      "min_para_valorizar": 3.79,
+      "jogos": 21,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
       "id": 91473,
       "nome": "Erick Pulgar",
       "clube": "FLA",
@@ -1488,6 +1503,21 @@
       "mando_favoravel": "N/A"
     },
     {
+      "id": 78855,
+      "nome": "Thiago Santos",
+      "clube": "CFC",
+      "clube_abreviacao": "CFC",
+      "posicao": "Zagueiro",
+      "preco": 4.22,
+      "media_total": 2.98,
+      "media_basica": 0.0,
+      "min_para_valorizar": 1.9,
+      "jogos": 21,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
       "id": 73384,
       "nome": "Samuel Xavier",
       "clube": "FLU",
@@ -1516,21 +1546,6 @@
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "Favorável"
-    },
-    {
-      "id": 78855,
-      "nome": "Thiago Santos",
-      "clube": "CFC",
-      "clube_abreviacao": "CFC",
-      "posicao": "Zagueiro",
-      "preco": 4.22,
-      "media_total": 2.98,
-      "media_basica": 0.0,
-      "min_para_valorizar": 1.9,
-      "jogos": 21,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
     },
     {
       "id": 87258,
@@ -1573,21 +1588,6 @@
       "media_basica": -0.81,
       "min_para_valorizar": 3.23,
       "jogos": 16,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
-      "id": 102928,
-      "nome": "Canobbio",
-      "clube": "FLU",
-      "clube_abreviacao": "FLU",
-      "posicao": "Atacante",
-      "preco": 10.47,
-      "media_total": 6.56,
-      "media_basica": -2.62,
-      "min_para_valorizar": 4.71,
-      "jogos": 21,
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -1653,21 +1653,6 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 91908,
-      "nome": "Pavón",
-      "clube": "GRE",
-      "clube_abreviacao": "GRE",
-      "posicao": "Atacante",
-      "preco": 7,
-      "media_total": 4.14,
-      "media_basica": -1.24,
-      "min_para_valorizar": 3.15,
-      "jogos": 25,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 97145,
       "nome": "Villasanti",
       "clube": "GRE",
@@ -1678,6 +1663,21 @@
       "media_basica": -0.89,
       "min_para_valorizar": 2.78,
       "jogos": 9,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 91908,
+      "nome": "Pavón",
+      "clube": "GRE",
+      "clube_abreviacao": "GRE",
+      "posicao": "Atacante",
+      "preco": 7,
+      "media_total": 4.14,
+      "media_basica": -1.24,
+      "min_para_valorizar": 3.15,
+      "jogos": 25,
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -1713,21 +1713,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 142004,
-      "nome": "Amuzu",
-      "clube": "GRE",
-      "clube_abreviacao": "GRE",
-      "posicao": "Atacante",
-      "preco": 6.86,
-      "media_total": 3.49,
-      "media_basica": -0.96,
-      "min_para_valorizar": 3.09,
-      "jogos": 24,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 111309,
       "nome": "Gustavo Martins",
       "clube": "GRE",
@@ -1743,17 +1728,17 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 112863,
-      "nome": "Ramón Sosa",
-      "clube": "PAL",
-      "clube_abreviacao": "PAL",
+      "id": 142004,
+      "nome": "Amuzu",
+      "clube": "GRE",
+      "clube_abreviacao": "GRE",
       "posicao": "Atacante",
-      "preco": 5.5,
-      "media_total": 3.16,
-      "media_basica": -1.91,
-      "min_para_valorizar": 2.48,
-      "jogos": 22,
-      "mando": "N/A",
+      "preco": 6.86,
+      "media_total": 3.49,
+      "media_basica": -0.96,
+      "min_para_valorizar": 3.09,
+      "jogos": 24,
+      "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
     },
@@ -1788,21 +1773,6 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 84674,
-      "nome": "Lucas Evangelista",
-      "clube": "PAL",
-      "clube_abreviacao": "PAL",
-      "posicao": "Meia",
-      "preco": 5.13,
-      "media_total": 1.7,
-      "media_basica": -0.4,
-      "min_para_valorizar": 2.31,
-      "jogos": 25,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 97653,
       "nome": "Murilo",
       "clube": "PAL",
@@ -1833,46 +1803,16 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
-      "id": 102130,
-      "nome": "Piquerez",
+      "id": 84674,
+      "nome": "Lucas Evangelista",
       "clube": "PAL",
       "clube_abreviacao": "PAL",
-      "posicao": "Lateral",
-      "preco": 10.65,
-      "media_total": 6.12,
-      "media_basica": -1.33,
-      "min_para_valorizar": 4.79,
-      "jogos": 15,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
-    },
-    {
-      "id": 105175,
-      "nome": "Khellven",
-      "clube": "PAL",
-      "clube_abreviacao": "PAL",
-      "posicao": "Lateral",
-      "preco": 6.35,
-      "media_total": 3.58,
-      "media_basica": -0.24,
-      "min_para_valorizar": 2.86,
-      "jogos": 21,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
-    },
-    {
-      "id": 110506,
-      "nome": "Abel Ferreira",
-      "clube": "PAL",
-      "clube_abreviacao": "PAL",
-      "posicao": "Técnico",
-      "preco": 12.27,
-      "media_total": 6.92,
-      "media_basica": 0.0,
-      "min_para_valorizar": 5.52,
-      "jogos": 30,
+      "posicao": "Meia",
+      "preco": 5.13,
+      "media_total": 1.7,
+      "media_basica": -0.4,
+      "min_para_valorizar": 2.31,
+      "jogos": 25,
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -1893,6 +1833,21 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
+      "id": 102130,
+      "nome": "Piquerez",
+      "clube": "PAL",
+      "clube_abreviacao": "PAL",
+      "posicao": "Lateral",
+      "preco": 10.65,
+      "media_total": 6.12,
+      "media_basica": -1.33,
+      "min_para_valorizar": 4.79,
+      "jogos": 15,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
       "id": 126977,
       "nome": "Fernando Seabra",
       "clube": "CFC",
@@ -1904,6 +1859,36 @@
       "min_para_valorizar": 3.4,
       "jogos": 29,
       "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 110506,
+      "nome": "Abel Ferreira",
+      "clube": "PAL",
+      "clube_abreviacao": "PAL",
+      "posicao": "Técnico",
+      "preco": 12.27,
+      "media_total": 6.92,
+      "media_basica": 0.0,
+      "min_para_valorizar": 5.52,
+      "jogos": 30,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 102928,
+      "nome": "Canobbio",
+      "clube": "FLU",
+      "clube_abreviacao": "FLU",
+      "posicao": "Atacante",
+      "preco": 10.47,
+      "media_total": 6.56,
+      "media_basica": -2.62,
+      "min_para_valorizar": 4.71,
+      "jogos": 21,
+      "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
     },
@@ -1923,19 +1908,34 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 84816,
-      "nome": "Varela",
-      "clube": "FLA",
-      "clube_abreviacao": "FLA",
-      "posicao": "Lateral",
-      "preco": 8.43,
-      "media_total": 4.48,
-      "media_basica": -0.86,
-      "min_para_valorizar": 3.79,
-      "jogos": 21,
+      "id": 84558,
+      "nome": "Lucas Romero",
+      "clube": "CRU",
+      "clube_abreviacao": "CRU",
+      "posicao": "Meia",
+      "preco": 8.04,
+      "media_total": 4.67,
+      "media_basica": -1.55,
+      "min_para_valorizar": 3.62,
+      "jogos": 20,
       "mando": "N/A",
       "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 112863,
+      "nome": "Ramón Sosa",
+      "clube": "PAL",
+      "clube_abreviacao": "PAL",
+      "posicao": "Atacante",
+      "preco": 5.5,
+      "media_total": 3.16,
+      "media_basica": -1.91,
+      "min_para_valorizar": 2.48,
+      "jogos": 22,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
     },
     {
       "id": 84042,
@@ -1949,6 +1949,21 @@
       "min_para_valorizar": 2.21,
       "jogos": 10,
       "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 83257,
+      "nome": "Gabriel",
+      "clube": "SAN",
+      "clube_abreviacao": "SAN",
+      "posicao": "Atacante",
+      "preco": 10.22,
+      "media_total": 5.87,
+      "media_basica": -4.75,
+      "min_para_valorizar": 4.6,
+      "jogos": 20,
+      "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
     },
@@ -2028,21 +2043,6 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 91573,
-      "nome": "Arboleda",
-      "clube": "SAO",
-      "clube_abreviacao": "SAO",
-      "posicao": "Zagueiro",
-      "preco": 8.08,
-      "media_total": 3.79,
-      "media_basica": 0.0,
-      "min_para_valorizar": 3.64,
-      "jogos": 16,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "Favorável"
-    },
-    {
       "id": 105300,
       "nome": "Ferraresi",
       "clube": "BOT",
@@ -2053,6 +2053,21 @@
       "media_basica": -0.33,
       "min_para_valorizar": 2.92,
       "jogos": 24,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "Favorável"
+    },
+    {
+      "id": 91573,
+      "nome": "Arboleda",
+      "clube": "SAO",
+      "clube_abreviacao": "SAO",
+      "posicao": "Zagueiro",
+      "preco": 8.08,
+      "media_total": 3.79,
+      "media_basica": 0.0,
+      "min_para_valorizar": 3.64,
+      "jogos": 16,
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "Favorável"
@@ -2103,21 +2118,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 86686,
-      "nome": "Tchê Tchê",
-      "clube": "VAS",
-      "clube_abreviacao": "VAS",
-      "posicao": "Meia",
-      "preco": 4.54,
-      "media_total": 2.88,
-      "media_basica": -0.8,
-      "min_para_valorizar": 2.04,
-      "jogos": 20,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 93716,
       "nome": "Paulo Henrique",
       "clube": "VAS",
@@ -2133,19 +2133,19 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
-      "id": 117330,
-      "nome": "Robert Renan",
+      "id": 86686,
+      "nome": "Tchê Tchê",
       "clube": "VAS",
       "clube_abreviacao": "VAS",
-      "posicao": "Zagueiro",
-      "preco": 6.1,
-      "media_total": 3.23,
-      "media_basica": -0.3,
-      "min_para_valorizar": 2.75,
-      "jogos": 27,
+      "posicao": "Meia",
+      "preco": 4.54,
+      "media_total": 2.88,
+      "media_basica": -0.8,
+      "min_para_valorizar": 2.04,
+      "jogos": 20,
       "mando": "N/A",
       "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
+      "mando_favoravel": "N/A"
     },
     {
       "id": 116706,
@@ -2161,6 +2161,21 @@
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
+    },
+    {
+      "id": 117330,
+      "nome": "Robert Renan",
+      "clube": "VAS",
+      "clube_abreviacao": "VAS",
+      "posicao": "Zagueiro",
+      "preco": 6.1,
+      "media_total": 3.23,
+      "media_basica": -0.3,
+      "min_para_valorizar": 2.75,
+      "jogos": 27,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
     },
     {
       "id": 92180,
@@ -2206,6 +2221,21 @@
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
+    },
+    {
+      "id": 116461,
+      "nome": "Jamerson",
+      "clube": "VIT",
+      "clube_abreviacao": "VIT",
+      "posicao": "Lateral",
+      "preco": 6.89,
+      "media_total": 5.18,
+      "media_basica": 0.0,
+      "min_para_valorizar": 3.1,
+      "jogos": 16,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
     },
     {
       "id": 104118,
@@ -2283,21 +2313,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 110698,
-      "nome": "Mycael",
-      "clube": "CAP",
-      "clube_abreviacao": "CAP",
-      "posicao": "Goleiro",
-      "preco": 9.53,
-      "media_total": 7.14,
-      "media_basica": 0.0,
-      "min_para_valorizar": 4.29,
-      "jogos": 5,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "Favorável"
-    },
-    {
       "id": 112017,
       "nome": "Felipinho",
       "clube": "CAP",
@@ -2311,6 +2326,21 @@
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
+    },
+    {
+      "id": 110698,
+      "nome": "Mycael",
+      "clube": "CAP",
+      "clube_abreviacao": "CAP",
+      "posicao": "Goleiro",
+      "preco": 9.53,
+      "media_total": 7.14,
+      "media_basica": 0.0,
+      "min_para_valorizar": 4.29,
+      "jogos": 5,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "Favorável"
     },
     {
       "id": 123101,
@@ -2343,21 +2373,6 @@
       "mando_favoravel": "Favorável"
     },
     {
-      "id": 143193,
-      "nome": "Viveros",
-      "clube": "CAP",
-      "clube_abreviacao": "CAP",
-      "posicao": "Atacante",
-      "preco": 14.96,
-      "media_total": 9.41,
-      "media_basica": -6.36,
-      "min_para_valorizar": 6.73,
-      "jogos": 25,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 128431,
       "nome": "João Cruz",
       "clube": "CAP",
@@ -2368,6 +2383,21 @@
       "media_basica": -1.71,
       "min_para_valorizar": 2.61,
       "jogos": 21,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 143193,
+      "nome": "Viveros",
+      "clube": "CAP",
+      "clube_abreviacao": "CAP",
+      "posicao": "Atacante",
+      "preco": 14.96,
+      "media_total": 9.41,
+      "media_basica": -6.36,
+      "min_para_valorizar": 6.73,
+      "jogos": 25,
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -2388,21 +2418,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 84339,
-      "nome": "Bruno Melo",
-      "clube": "CFC",
-      "clube_abreviacao": "CFC",
-      "posicao": "Lateral",
-      "preco": 5.12,
-      "media_total": 2.9,
-      "media_basica": -0.5,
-      "min_para_valorizar": 2.3,
-      "jogos": 26,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
-    },
-    {
       "id": 97878,
       "nome": "Jacy",
       "clube": "CFC",
@@ -2413,6 +2428,21 @@
       "media_basica": -0.32,
       "min_para_valorizar": 2.7,
       "jogos": 25,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
+      "id": 84339,
+      "nome": "Bruno Melo",
+      "clube": "CFC",
+      "clube_abreviacao": "CFC",
+      "posicao": "Lateral",
+      "preco": 5.12,
+      "media_total": 2.9,
+      "media_basica": -0.5,
+      "min_para_valorizar": 2.3,
+      "jogos": 26,
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "Neutro/Desfavorável"
@@ -2433,21 +2463,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 104811,
-      "nome": "Sebastián Gómez",
-      "clube": "CFC",
-      "clube_abreviacao": "CFC",
-      "posicao": "Meia",
-      "preco": 3.77,
-      "media_total": 2.61,
-      "media_basica": -0.2,
-      "min_para_valorizar": 1.7,
-      "jogos": 25,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 125803,
       "nome": "Pedro Morisco",
       "clube": "CFC",
@@ -2461,6 +2476,21 @@
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
+      "id": 104811,
+      "nome": "Sebastián Gómez",
+      "clube": "CFC",
+      "clube_abreviacao": "CFC",
+      "posicao": "Meia",
+      "preco": 3.77,
+      "media_total": 2.61,
+      "media_basica": -0.2,
+      "min_para_valorizar": 1.7,
+      "jogos": 25,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
     },
     {
       "id": 117930,
@@ -2491,36 +2521,6 @@
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "Neutro/Desfavorável"
-    },
-    {
-      "id": 116461,
-      "nome": "Jamerson",
-      "clube": "VIT",
-      "clube_abreviacao": "VIT",
-      "posicao": "Lateral",
-      "preco": 6.89,
-      "media_total": 5.18,
-      "media_basica": 0.0,
-      "min_para_valorizar": 3.1,
-      "jogos": 16,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
-    },
-    {
-      "id": 83257,
-      "nome": "Gabriel",
-      "clube": "SAN",
-      "clube_abreviacao": "SAN",
-      "posicao": "Atacante",
-      "preco": 10.22,
-      "media_total": 5.87,
-      "media_basica": -4.75,
-      "min_para_valorizar": 4.6,
-      "jogos": 20,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
     },
     {
       "id": 97795,
@@ -2673,21 +2673,6 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
-      "id": 89274,
-      "nome": "Andreas Pereira",
-      "clube": "PAL",
-      "clube_abreviacao": "PAL",
-      "posicao": "Meia",
-      "preco": 11.79,
-      "media_total": 4.79,
-      "media_basica": -2.0,
-      "min_para_valorizar": 5.31,
-      "jogos": 29,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 126471,
       "nome": "Barreal",
       "clube": "SAN",
@@ -2698,6 +2683,21 @@
       "media_basica": -1.76,
       "min_para_valorizar": 4.39,
       "jogos": 21,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 89274,
+      "nome": "Andreas Pereira",
+      "clube": "PAL",
+      "clube_abreviacao": "PAL",
+      "posicao": "Meia",
+      "preco": 11.79,
+      "media_total": 4.79,
+      "media_basica": -2.0,
+      "min_para_valorizar": 5.31,
+      "jogos": 29,
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
@@ -2793,21 +2793,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 114040,
-      "nome": "Minda",
-      "clube": "CAM",
-      "clube_abreviacao": "CAM",
-      "posicao": "Atacante",
-      "preco": 7.54,
-      "media_total": 3.72,
-      "media_basica": -1.82,
-      "min_para_valorizar": 3.39,
-      "jogos": 17,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 90061,
       "nome": "Bruno Pacheco",
       "clube": "CHA",
@@ -2823,6 +2808,21 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
+      "id": 114040,
+      "nome": "Minda",
+      "clube": "CAM",
+      "clube_abreviacao": "CAM",
+      "posicao": "Atacante",
+      "preco": 7.54,
+      "media_total": 3.72,
+      "media_basica": -1.82,
+      "min_para_valorizar": 3.39,
+      "jogos": 17,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
       "id": 147090,
       "nome": "Kauã Pascini",
       "clube": "CAM",
@@ -2833,6 +2833,21 @@
       "media_basica": 0.0,
       "min_para_valorizar": 2.02,
       "jogos": 10,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "Favorável"
+    },
+    {
+      "id": 70666,
+      "nome": "Marllon",
+      "clube": "REM",
+      "clube_abreviacao": "REM",
+      "posicao": "Zagueiro",
+      "preco": 6.35,
+      "media_total": 3.26,
+      "media_basica": -0.78,
+      "min_para_valorizar": 2.86,
+      "jogos": 27,
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "Favorável"
@@ -2851,21 +2866,6 @@
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
-    },
-    {
-      "id": 70666,
-      "nome": "Marllon",
-      "clube": "REM",
-      "clube_abreviacao": "REM",
-      "posicao": "Zagueiro",
-      "preco": 6.35,
-      "media_total": 3.26,
-      "media_basica": -0.78,
-      "min_para_valorizar": 2.86,
-      "jogos": 27,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "Favorável"
     },
     {
       "id": 69208,
@@ -2898,21 +2898,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 71536,
-      "nome": "Luiz Gustavo",
-      "clube": "CAP",
-      "clube_abreviacao": "CAP",
-      "posicao": "Meia",
-      "preco": 7.41,
-      "media_total": 3.88,
-      "media_basica": -1.14,
-      "min_para_valorizar": 3.33,
-      "jogos": 21,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 89256,
       "nome": "Gerson",
       "clube": "CRU",
@@ -2924,6 +2909,21 @@
       "min_para_valorizar": 4.05,
       "jogos": 26,
       "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 71536,
+      "nome": "Luiz Gustavo",
+      "clube": "CAP",
+      "clube_abreviacao": "CAP",
+      "posicao": "Meia",
+      "preco": 7.41,
+      "media_total": 3.88,
+      "media_basica": -1.14,
+      "min_para_valorizar": 3.33,
+      "jogos": 21,
+      "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
     },
@@ -2943,21 +2943,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 147088,
-      "nome": "Cissé",
-      "clube": "CAM",
-      "clube_abreviacao": "CAM",
-      "posicao": "Meia",
-      "preco": 2.77,
-      "media_total": 1.89,
-      "media_basica": -0.47,
-      "min_para_valorizar": 1.25,
-      "jogos": 17,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 118844,
       "nome": "Kaio César",
       "clube": "COR",
@@ -2967,6 +2952,21 @@
       "media_total": 5.77,
       "media_basica": -1.53,
       "min_para_valorizar": 4.42,
+      "jogos": 17,
+      "mando": "Casa",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 147088,
+      "nome": "Cissé",
+      "clube": "CAM",
+      "clube_abreviacao": "CAM",
+      "posicao": "Meia",
+      "preco": 2.77,
+      "media_total": 1.89,
+      "media_basica": -0.47,
+      "min_para_valorizar": 1.25,
       "jogos": 17,
       "mando": "Casa",
       "adversario": "N/A",
@@ -3003,21 +3003,6 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
-      "id": 126189,
-      "nome": "Tomás Pérez",
-      "clube": "CAM",
-      "clube_abreviacao": "CAM",
-      "posicao": "Meia",
-      "preco": 2.87,
-      "media_total": 1.33,
-      "media_basica": 0.0,
-      "min_para_valorizar": 1.29,
-      "jogos": 15,
-      "mando": "Casa",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 92747,
       "nome": "Eduardo Domínguez",
       "clube": "CAM",
@@ -3048,17 +3033,17 @@
       "mando_favoravel": "Neutro/Desfavorável"
     },
     {
-      "id": 88963,
-      "nome": "Leonardo Jardim",
-      "clube": "FLA",
-      "clube_abreviacao": "FLA",
-      "posicao": "Técnico",
-      "preco": 13.55,
-      "media_total": 7.37,
+      "id": 126189,
+      "nome": "Tomás Pérez",
+      "clube": "CAM",
+      "clube_abreviacao": "CAM",
+      "posicao": "Meia",
+      "preco": 2.87,
+      "media_total": 1.33,
       "media_basica": 0.0,
-      "min_para_valorizar": 6.1,
-      "jogos": 26,
-      "mando": "N/A",
+      "min_para_valorizar": 1.29,
+      "jogos": 15,
+      "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
     },
@@ -3078,6 +3063,21 @@
       "mando_favoravel": "N/A"
     },
     {
+      "id": 88963,
+      "nome": "Leonardo Jardim",
+      "clube": "FLA",
+      "clube_abreviacao": "FLA",
+      "posicao": "Técnico",
+      "preco": 13.55,
+      "media_total": 7.37,
+      "media_basica": 0.0,
+      "min_para_valorizar": 6.1,
+      "jogos": 26,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
       "id": 41929,
       "nome": "Renato Gaúcho",
       "clube": "GRE",
@@ -3091,21 +3091,6 @@
       "mando": "Casa",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
-    },
-    {
-      "id": 148125,
-      "nome": "Ryan Augusto",
-      "clube": "RBB",
-      "clube_abreviacao": "RBB",
-      "posicao": "Lateral",
-      "preco": 4.07,
-      "media_total": 3.47,
-      "media_basica": 0.0,
-      "min_para_valorizar": 1.83,
-      "jogos": 8,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "Neutro/Desfavorável"
     },
     {
       "id": 115537,
@@ -3123,6 +3108,21 @@
       "mando_favoravel": "Favorável"
     },
     {
+      "id": 148125,
+      "nome": "Ryan Augusto",
+      "clube": "RBB",
+      "clube_abreviacao": "RBB",
+      "posicao": "Lateral",
+      "preco": 4.07,
+      "media_total": 3.47,
+      "media_basica": 0.0,
+      "min_para_valorizar": 1.83,
+      "jogos": 8,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "Neutro/Desfavorável"
+    },
+    {
       "id": 95131,
       "nome": "Gabriel Taliari",
       "clube": "REM",
@@ -3138,21 +3138,6 @@
       "mando_favoravel": "N/A"
     },
     {
-      "id": 42411,
-      "nome": "Cuca",
-      "clube": "SAN",
-      "clube_abreviacao": "SAN",
-      "posicao": "Técnico",
-      "preco": 10.14,
-      "media_total": 6.03,
-      "media_basica": 0.0,
-      "min_para_valorizar": 4.56,
-      "jogos": 21,
-      "mando": "N/A",
-      "adversario": "N/A",
-      "mando_favoravel": "N/A"
-    },
-    {
       "id": 127273,
       "nome": "Artur Jorge",
       "clube": "CRU",
@@ -3163,6 +3148,21 @@
       "media_basica": 0.0,
       "min_para_valorizar": 5.3,
       "jogos": 22,
+      "mando": "N/A",
+      "adversario": "N/A",
+      "mando_favoravel": "N/A"
+    },
+    {
+      "id": 42411,
+      "nome": "Cuca",
+      "clube": "SAN",
+      "clube_abreviacao": "SAN",
+      "posicao": "Técnico",
+      "preco": 10.14,
+      "media_total": 6.03,
+      "media_basica": 0.0,
+      "min_para_valorizar": 4.56,
+      "jogos": 21,
       "mando": "N/A",
       "adversario": "N/A",
       "mando_favoravel": "N/A"
